@@ -1,0 +1,35 @@
+Q1.Program to search for a particular character in a string.
+Ans. var string = 'LetsUpgrade';
+     let b = string.search('U');
+     if (b >= 0){
+         console.log('Character "U" is present in', string);
+     } else{
+         console.log('Character "U" is not present in', string);
+     }
+
+
+Q2.Program to convert minutes to seconds.
+Ans. let minutes = 80;
+     console.log(minutes*60);
+
+
+Q3.Program to search for a element in a array of strings.
+Ans. var list = ['basketball','cricket','volleyball','football','hockey'];
+     let a = list.indexOf('cricket');
+     if (a >= 0){
+         console.log('cricket is present in the list.');
+     }else{
+         console.log('cricket is not present in the list.');
+     }
+
+Q4.Program to display only elements containing 'a' in them from a array.
+Ans. var strings = ['apple','mango','chickoo','cherry','plum','orange'];
+     strings.forEach(function (a) {
+         if (a.search('a') >= 0){
+             console.log(a);
+         }
+     });
+
+Q5.Print an array in reverse order.
+Ans. var Menu = ['Dosa','Pizza','Burger','Pani Puri','FriedRice'];
+     console.log(Menu.reverse());
