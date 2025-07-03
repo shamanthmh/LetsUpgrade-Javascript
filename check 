@@ -1,0 +1,1 @@
+create table pretraining.base(text varchar,id varchar,dump varchar, url varchar, date1 varchar, file_path varchar, lang varchar, lang_score double, tok_cnt bigint) with (format='PARQUET', external_location='file:///tmp/trino-local-warehouse')
